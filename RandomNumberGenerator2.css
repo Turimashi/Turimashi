@@ -1,0 +1,49 @@
+body{
+    background:linear-gradient(5deg,red,green,blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: BackgroundAnimation 5s ease;
+    background-size:200%;
+    overflow: hidden;
+
+}
+#nomer{
+    display:block;
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    font-size:100px;
+    color: aquamarine;
+}
+header{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    font-size:40px;
+}
+nav{
+    position: relative;
+    text-align: center;
+}
+.buttons{
+    padding: 15px 15px;
+    font-size: 1.5em;
+    color:aquamarine;
+    background-color: black;
+    border-radius:15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: gray;
+}
+.texts{
+    background-color: black;
+    font-family: Arial;
+    font-size: 25px;
+    color: aquamarine;
+}
+.texts::placeholder{
+    color: aquamarine;
+}
